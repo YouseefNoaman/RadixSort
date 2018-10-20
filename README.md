@@ -16,4 +16,4 @@ A beginner's guide to Radix sort
 - it is a stable algorithm
 - in-place algorithm in this implementation, other stable sorting algorithms if used, it may not be an in-place algorithm.
 - it sorts from the least significant digit to the most significant digit, right to left, like 824, sorted firstly 4 then 2 lastly 8,
-    or if it is used to sort strings, "hello" would be sorted by 'o' then 'l', 'l', 'e', and lastly 'h'.
+  or if it is used to sort strings, "hello" would be sorted by 'o' then 'l', 'l', 'e', and lastly 'h'.
