@@ -39,7 +39,7 @@ public class Main {
 
     public static int getDigit(int position, int value, int radix){ // this function is used to get the number from a certain multi-digit number based on a position
         return value / (int) Math.pow(radix, position) % radix;
-        // if we need to get the 2 from 824, it will be getDigit(1, 2, 3), the output will be 1, which is of 2 the position in the array
+        // if we need to get the 2 from 824, it will be getDigit(1, 2, 3), the output will be 1, which is in the position in the array is 2
     }
 
     public static void printArray(int[] arr) {
