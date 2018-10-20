@@ -5,8 +5,9 @@ A beginner's guide to Radix sort
    1) the data MUST have the same width and radix
    2) the data must be integers or strings
    
-   radix: it means the counting system, binary system(0, 1) has radix = 2, decimal system(0 .. 9) has radix = 10
    width: means how many digits are in the data element, "hello" width = 5, 824 width = 3
+   
+   radix: it means the counting system, binary system(0, 1) has radix = 2, decimal system(0 .. 9) has radix = 10
    
 - this sort algorithm needs to use a stable sort algorithm at each step, usually it is the stable version of counting sort
 
